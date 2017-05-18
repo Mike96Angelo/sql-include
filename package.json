@@ -1,0 +1,26 @@
+{
+  "name": "sql-inports",
+  "version": "1.0.1",
+  "description": "A simple pre-processor for building sql from multiple files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mike96Angelo/sql-inports.git"
+  },
+  "keywords": [
+    "sql",
+    "inport",
+    "inports",
+    "multiple",
+    "files"
+  ],
+  "author": "Michaelangelo Jong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mike96Angelo/sql-inports/issues"
+  },
+  "homepage": "https://github.com/Mike96Angelo/sql-inports#readme"
+}
