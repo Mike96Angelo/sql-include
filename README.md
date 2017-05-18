@@ -15,7 +15,7 @@ To include all `.sql` files in a folder:
 
 main.sql:
 ```sql
--- @inport ./my_func.sql
+-- @include ./my_func.sql
 select * from my_func();
 ```
 my_func.sql:
