@@ -1,4 +1,4 @@
-# sql-inports
+# sql-include
 A simple pre-processor for building sql from multiple files.
 
 To include a `.sql` file:
@@ -48,7 +48,7 @@ select * from my_func();
 file.js:
 ```JavaScript
 var fs = require('fs');
-var compileSQL = require('sql-inports');
+var sqlInclude = require('sql-include');
 
-fs.writeFileSync('./output.sql', compileSQL('./main.sql'));
+fs.writeFileSync('./output.sql', sqlInclude('./main.sql'));
 ```
